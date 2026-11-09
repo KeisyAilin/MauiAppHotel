@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.PaginaSobre"
+             Title="Sobre">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="15">
+
+            <Label Text="Hotel"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="#4E342E"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Este aplicativo foi desenvolvido para o para que um usuário possa acessar e marcar uma hospedagem no Hotel"
+                   FontSize="18" 
+                   TextColor="#5D4037"/>
+
+            <Frame Padding="15"
+                   Margin="0,5"
+                   CornerRadius="12"
+                   BackgroundColor="White"
+                   BorderColor="#C9A66B">
+
+                <VerticalStackLayout>
+                    <Label Text="Desenvolvedor"
+                           FontAttributes="Bold"
+                           FontSize="20" />
+
+                    <Label Text="Keisy Tuco" />
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Padding="15"
+                   Margin="0,5"
+                   CornerRadius="12"
+                   BackgroundColor="White"
+                   BorderColor="#C9A66B">
+
+                <VerticalStackLayout>
+                    <Label Text="Ano de desenvolvimento"
+                           FontAttributes="Bold"
+                           FontSize="20" />
+
+                    <Label Text="2026" />
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Padding="15"
+                   Margin="0,5"
+                   CornerRadius="12"
+                   BackgroundColor="White"
+                   BorderColor="#C9A66B">
+
+                <VerticalStackLayout>
+                    <Label Text="Tecnologias utilizadas"
+                           FontAttributes="Bold"
+                           FontSize="20" />
+
+                    <Label Text="C#, Xaml"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Label Text=" Hotel @ 2026 | Versão 0.1"
+                   TextColor="#8D6E63"
+                   HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+    
+</ContentPage>
